@@ -1,0 +1,25 @@
+
+/*
+** Attribute selectors
+*/
+
+h2[title="header1"] {
+    color: red;
+}
+
+p[title="parag1"] {
+    color: lightblue;
+    text-align: justify;
+}
+
+a[target="_blank"] {
+    color:black;
+}
+
+input[type="text"] {
+    background-color: aqua;
+}
+
+input[type="button"] {
+    background-color: bisque;
+}

@@ -1,0 +1,24 @@
+
+/*
+
+** Selectors
+
+(p) --> all p tags
+
+(div p) --> all p tags inside div
+
+(div, p) --> all div and p tags
+
+(p + div) --> div tags which comes after p tags 
+
+
+*/
+
+
+div p {
+    color: red;
+}
+
+.container div {
+    color: royalblue;
+}
