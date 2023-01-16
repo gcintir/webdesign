@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 7px;
 }
 
 body {
@@ -32,6 +32,12 @@ img {
 
 header {
     height: 46rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 header .bg-image {
@@ -87,4 +93,47 @@ header h1 {
 
 .col-content {
     padding: 1.5rem;
+}
+
+#section-3 {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+#section-4 .box {
+    padding: 5rem;
+}
+
+#section-4 .box:first-child {
+    background-color: darkslategray;
+}
+
+footer {
+    padding: 4rem;
+    background-color: black;
+}
+footer a {
+    color: yellowgreen;
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 11px;
+    }
+    #section-2 li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box {
+        width: 50%;
+        float: left;
+    }
 }
