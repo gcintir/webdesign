@@ -34,6 +34,12 @@ header {
     height: 46rem;
 }
 
+/*
+#section-4 {
+    overflow: auto;
+}
+*/
+
 .clearfix::after {
     content: "";
     display: block;
